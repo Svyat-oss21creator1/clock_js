@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://орфографика.рф/800/600/https/s1.1zoom.me/big3/119/Abstraction_Blue_454924.jpg);
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    
+
+}
+#clock{
+    background-color: blue;
+    opacity: 68%;
+    color:white;
+    font-size: 89px;    
+    text-align: center;
+}
+
+.animate-fading {
+    margin-top: 100px;
+	height: 50px;
+	line-height: 72px;
+	background: darkblue;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	animation: animate_fading 2s infinite;
+	animation-timing-function: linear;
+    
+}
+.animate-fading:hover {
+	animation: none;
+}
+ 
+@keyframes animate_fading {
+	0% {
+		opacity: 30;
+	}
+	25% {
+		opacity: 0.6;
+	}
+	50% {
+		opacity: 0.1;
+	}
+	75% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
